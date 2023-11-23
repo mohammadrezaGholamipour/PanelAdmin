@@ -153,10 +153,7 @@ const handleChangeTabBestProduct = (type) => {
       </template>
       <div v-else class="flex relative flex-col items-center">
         <p class="text text-xl absolute top-7 font-bold">موردی یافت نشد</p>
-        <img
-          width="350"
-          src="@/assets/image/best-products/not-found-data.jpg"
-        />
+        <img src="@/assets/image/not-found-data.jpg" width="350" />
       </div>
     </div>
   </div>

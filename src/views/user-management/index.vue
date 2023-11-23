@@ -2,7 +2,7 @@
 import { onMounted, reactive, provide, watch } from "vue";
 import userManagementApi from "@/api/user-management";
 import Table from "@/components/table/index.vue";
-import Address from "./components/Address.vue";
+import Address from "./components/address.vue";
 import Factor from "./components/factor.vue";
 import Wallet from "./components/wallet.vue";
 import Score from "./components/score.vue";

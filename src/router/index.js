@@ -8,7 +8,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import accountSetting from '@/views/account-setting.vue';
 import sendMessage from '@/views/send-message/index.vue';
 import listSurvey from '@/views/list-survey/index.vue';
-import manageRole from '@/views/manage-role/index.vue';
+import manageRole from '@/views/Manage-role/index.vue';
 import categories from '@/views/categories/index.vue';
 import listOrder from '@/views/list-order/index.vue';
 import storeReport from '@/views/store-report.vue';

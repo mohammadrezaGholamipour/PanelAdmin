@@ -9,9 +9,12 @@ onMounted(() => {
   if (colorMode === "dark") {
     html.value.classList.add("dark");
     colorMoodValue.value = true;
-  } else {
+  } else if (colorMode === "light") {
     html.value.classList.remove("dark");
     colorMoodValue.value = false;
+  } else {
+    html.value.classList.add("dark");
+    colorMoodValue.value = true;
   }
 });
 const handleColorMood = () => {
